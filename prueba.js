@@ -3,7 +3,7 @@ import { addDoc, collection } from "@firebase/firestore";
 import fetch from "node-fetch";
 
 
-const API = 'https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=3fd2be6f0c70a2a598f084ddfb75487c&page=12'
+const API = 'https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=3fd2be6f0c70a2a598f084ddfb75487c&page=1'
 
 
 const fetch1 = async (api1) => {
